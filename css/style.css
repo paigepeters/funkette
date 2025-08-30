@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    padding-top: 10px;
     margin: auto;
     display: flex;
     margin: auto;
@@ -32,31 +33,27 @@ header {
 
 .portrait {
     width: 45%;
-    margin-top: 50px;
+    margin: auto;
     display: flex;
-    float: left;
-    margin-left: 100px;
-    border-radius: 20px;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 30px;
 }
 
 h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    min-width: fit-content;
+    margin-bottom: -1px;
 }
 
-.about {
-    max-width: 100px;
-    text-align: center;
-    margin-right: 150px;
-    width: 45%;
-    display: flex;
+p {
+    max-width: 70%;
 }
 
 footer {
     width: 90%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 p {
@@ -66,6 +63,26 @@ p {
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+}
+
+.imageLinks {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 10px;
+}
+
+.socials {
+    max-width: 50px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
 }
 
 a {
